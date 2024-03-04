@@ -18,6 +18,22 @@
 
 
 
+    const tabcontant = document.querySelectorAll(".tabcontant");
+    const firstcontant = document.querySelector(".tabcontant");
+    const fistactivetab = document.querySelector(".allbtn div");
+    tabcontant.forEach(e => e.style.display = "none");
+    firstcontant.style.display = "block";
+    fistactivetab.classList.add("tab1active");
+    function clickhere(tabs) {
+        tabcontant.forEach(e => e.style.display = "none");
+        const selectcontant = document.getElementById(tabs)
+        selectcontant.style.display = "block";
+        const tabsactive = document.querySelectorAll(".allbtn div")
+        tabsactive.forEach(e => e.classList.remove("tab1active"))
+        const selecttab = document.querySelector(`[onclick="clickhere('${tabs}')"]`)
+        selecttab.classList.add("tab1active")
+    }
+
 
     
 
