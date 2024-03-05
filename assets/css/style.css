@@ -190,8 +190,8 @@
 /* ----first-time */
 .timeline-item {
     position: relative;
-    padding: 0 0 47px 53px;
-    margin-left: 25px;
+    padding: 0 0 36px 53px;
+    margin-left: 30px;
 }
 
 .left-line {
@@ -224,14 +224,23 @@
     left: 0;
 }
 
+@media (min-width:575px) {
+    .timeline-item {
+        /* position: relative; */
+        /* padding: 0 0 36px 53px; */
+        margin-left: 60px;
+    }
+
+    
+}
 @media(min-width:992px) {
     .timeline-item {
-        margin-left: 120px;
+        margin-left: 125px;
     }
 
     .timeline-item .timeline-step {
         position: absolute;
-        left: -12%;
+        left: -125px;
         text-align: right
     }
 
@@ -368,11 +377,25 @@
     top: 18%;
 }
 
+.max-w-355{
+    max-width: 355px;
+}
 .max-w-662{
     max-width: 662px;
 }
 .px-28{
     padding: 0 28px ;
+}
+.ellipse71 {
+    left: 0;
+    top: -30%;
+}
+.ellipse72 {
+    bottom: -20%;
+    right: 0;
+}
+.bg-frame7{
+    background-image: url(../img/Frame7.png);
 }
 
 .Ellipse4first {
@@ -394,6 +417,75 @@
     box-shadow: 0px 0px 40px 8px #a2a2a240;
 }
 
+/* -----------------timline-2 */
+.timeline-item2 {
+    position: relative;
+    padding: 0 0 36px 40px;
+    margin-left: 30px;
+}
+
+.left-line2 {
+    top: 0;
+    left: 0;
+    border: 1px solid transparent;
+    background: linear-gradient(white, white) padding-box, linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%) border-box;
+    height: 100%;
+}
+
+.border_reduce .left-line {
+    height: 0 !important;
+}
+
+.timeline-week {
+    margin-bottom: 12px;
+    max-width: 136px;
+
+}
+
+.border-bottom-gray {
+    border-bottom: 1px solid #D7C8AE52;
+}
+
+.timeline-item2 .timeline-icon2 {
+    position: absolute;
+    left: -20px;
+}
+
+.timeline-line2 {
+    position: absolute;
+    left: 0;
+}
+@media (min-width:575px) {
+    .timeline-item2 {
+        margin-left: 50px;
+        padding: 0 0 36px 50px;
+    }
+
+    
+}
+@media(min-width:992px) {
+    .timeline-item2 {
+        margin-left: 204px;
+        padding: 0 0 36px 67px;
+    }
+
+    .timeline-item2 .timeline-week {
+        position: absolute;
+        left: -204px;
+        text-align: right
+    }
+
+    .timeline-week {
+        margin-bottom: 0;
+    }
+
+    .timeline-item2 .timeline-content2 {
+        padding: 0;
+        background-color: transparent
+    }
+}
+/* ----------------timeline-2 */
+
 .second-box:hover svg path {
     fill: var(--golden);
 }
@@ -411,6 +503,11 @@
 }
 .mt-14{
     margin-top: 14px;
+}
+.bg-8img{
+    background-image: url(../img/Frame7.png);
+    background-position: 100% 100%;
+    background-size: cover;
 }
 .box-6{
     padding: 10px 20px;
