@@ -14,10 +14,6 @@
       navMenu.classList.toggle("nav-active");
     }
 
-   
-
-
-
     const tabcontant = document.querySelectorAll(".tabcontant");
     const firstcontant = document.querySelector(".tabcontant");
     const fistactivetab = document.querySelector(".allbtn div");

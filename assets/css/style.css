@@ -132,12 +132,45 @@
     border-radius: 16px;
 }
 
+.max-w-566{
+    max-width: 566px;
+}
+.gap-20{
 
+    gap: 20px;
+}
 
 .nav-link:hover {
     color: var(--white);
 }
+.frame8 {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.Ellipsefirst {
+    top: 0;
+    left: 0;
+}
+.box-3{
+    
+    border-bottom: 2px solid #0000003D;
+    border-radius: 2px;
+}
 
+
+.pt-130{
+    padding-top: 130px;
+}
+.max-w-709{
+    max-width: 709px;
+}
+.mt-26{
+    margin-top: 26px;
+}
+.pt-68{
+    padding-top: 68px;
+}
 .tab-box {
     padding: 18px 32px;
     border-radius: 8px;
