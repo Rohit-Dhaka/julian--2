@@ -659,6 +659,16 @@
     
 
 }
+
+.max-w-534{
+    max-width: 534px;
+}
+.pb-66{
+    padding-bottom: 66px;
+}
+.max-w-236{
+    max-width: 236px !important;
+}
 .pt-20{
     padding-top: 20px;
 }
@@ -666,6 +676,10 @@
     left: 0;
     top: 0;
     
+}
+.group11 {
+    right: 0;
+    top: -22%;
 }
 .Ellipse0102{
     right: 0;
@@ -914,6 +928,9 @@
     }
     .pb-lg-64{
         padding-bottom: 64px !important;
+    }
+    .pb-lg-38{
+        padding-bottom: 38px !important;
     }
 }
 
