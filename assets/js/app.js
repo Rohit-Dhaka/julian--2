@@ -32,6 +32,22 @@
 
 
 
+        // ---------acor
+        let item = document.querySelectorAll(".acc-Item");
+        item.forEach(function (e) {
+            e.addEventListener("click", function () {
+                const isitactive = e.classList.contains("acc-active");
+                item.forEach(function (e) {
+                    e.classList.remove("acc-active");
+                })
+                if (!isitactive) {
+                    e.classList.toggle("acc-active");
+                }
+            })
+        });
+
+
+
         // ----------tab-2
         const tabcontant2 = document.querySelectorAll(".tabcontant2");
         const firstcontant2 = document.querySelector(".tabcontant2");

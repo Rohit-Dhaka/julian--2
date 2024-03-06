@@ -620,11 +620,70 @@
     background-position: 100% 100%;
     background-size: cover;
 }
+.bg-fre-img {
+    background-image: url(../img/FAQ.png);
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.max-w-390{
+    max-width: 390px;
+}
+/* ---------------------accordion */
+.acc-Item {
+    height: 60px;
+    border: 1px solid transparent;
+    background: linear-gradient(white, white) padding-box, linear-gradient(180deg, var(--gradient-white) , #F1E2C5 ) border-box;
+    padding: 18px 24px;
+    
+}
+
+.acc-Item.acc-active {
+    height: unset;
+    
+
+}
+.acc-para h2{
+    transition: all 900ms linear !important;
+    background-color: red !important;
+}
+.acc-Item.acc-active svg {
+    transform: rotate(45deg);
+    
+
+}
+
+/* ---------------------accordion */
 .bgtab-2{
     right: 0;
     bottom: 0;
     
 
+}
+.pt-20{
+    padding-top: 20px;
+}
+.Ellipse0101{
+    left: 0;
+    top: 0;
+    
+}
+.Ellipse0102{
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.Ellipse0103{
+    
+    bottom: -2%;
+
+}
+.group10{
+    left: 0;
+    bottom: -75%;
+}
+.max-w-730{
+    max-width: 730px ;
 }
 
 .active {
@@ -655,6 +714,10 @@
     padding-bottom: 48px;
 }
 
+.Ellipse102 {
+    left: 0;
+    bottom: -55%;
+}
 .group2 {
     bottom: 0;
     right: 0;
@@ -664,6 +727,10 @@
 }
 .Ellipse21 {
     left: 0;
+}
+.Ellipse101 {
+    top: -50%;
+    right: 0;
 }
 
 .max-w-399{
@@ -841,6 +908,12 @@
     }
     .pb-lg-156{
         padding-bottom: 156px !important;
+    }
+    .pt-lg-150{
+        padding-top: 150px !important;
+    }
+    .pb-lg-64{
+        padding-bottom: 64px !important;
     }
 }
 
