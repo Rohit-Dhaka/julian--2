@@ -31,6 +31,25 @@
     }
 
 
+
+        // ----------tab-2
+        const tabcontant2 = document.querySelectorAll(".tabcontant2");
+        const firstcontant2 = document.querySelector(".tabcontant2");
+        const fistactivetab2 = document.querySelector(".allbtn2 .tab-2");
+        tabcontant2.forEach(e => e.style.display = "none");
+        firstcontant2.style.display = "block";
+        fistactivetab2.classList.add("active");
+        function clicktab(tabs) {
+          tabcontant2.forEach(e => e.style.display = "none");
+          const selectcontant = document.getElementById(tabs)
+          selectcontant.style.display = "block";
+          const tabsactive = document.querySelectorAll(".allbtn2 .tab-2")
+          tabsactive.forEach(e => e.classList.remove("active"))
+          const selecttab = document.querySelector(`[onclick="clicktab('${tabs}')"]`)
+          selecttab.classList.add("active")
+        }
+
+
     
 
 
