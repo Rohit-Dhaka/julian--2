@@ -896,6 +896,9 @@
         background-position: 0% 100%;
         background-size: 100% 4px ;        
     }
+    .overflow-x-md-scroll{
+        overflow-x: scroll;
+    }
 }
 
 @media (min-width: 768px) {
